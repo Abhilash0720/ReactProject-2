@@ -13,18 +13,7 @@ function UserContext({children}) {
       header:"Lyrics"
     }
 ]
-let days = [
-  {
-  header:"5 days ago"
-  },
-  {
-    header:"2 wekks ago"
-  },
-  {
-    header:"3 weeks ago"
-  }
-]
-  return <ProjectContext.Provider value={{content,days}}> 
+  return <ProjectContext.Provider value={{content}}> 
     {children}
   </ProjectContext.Provider>
 }
