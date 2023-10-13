@@ -30,9 +30,10 @@
     content: url(/src/Icons/description.svg);
    
 }
-.notesbox{
-    display: flex;
-    justify-content: center;
+.mb-2{
+   float: right;
+   margin-right: 50px;
+     
 }
  .noteshead{
     margin: 40px;

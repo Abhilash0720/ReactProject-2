@@ -7,7 +7,14 @@ function Notescontext() {
    let {days} = useContext(ProjectContext)
 //   console.log(content)
   return <>
+  <center>
   <div className="notesbox">
+   <div class="heading" >
+    <h2 class="add">Add a Note</h2>
+    <h3 class="add">Title</h3>
+   <h4>Take a note...</h4>
+   </div>
+  
        <div className="noteshead">
          <h4 className="mynotes">My Notes</h4>
          <h5>Recently Viewed</h5>
@@ -32,6 +39,7 @@ function Notescontext() {
         </Card>
       ))}
       </div>
+      </center>
     </>
     
   
